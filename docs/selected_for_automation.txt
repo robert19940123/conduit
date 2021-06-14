@@ -1,0 +1,10 @@
+A001,Conduit_TC01_Regisztráció, nem automatizálható mert 1 adott email címmel csak 1x lehet regisztrálni
+A002,Conduit_TC02_Login/Logout, felület automatizázás, mert ismételt végrehajtást tartalmaz
+A003,Conduit_TC03_NewBlogPost, felület automatizázás, mert ismételt végrehajtást tartalmaz
+A004,Conduit_TC04_BlogFeed, felület automatizázás, mert ismételt végrehajtást tartalmaz
+A005,Conduit_TC05_BlogFeed_ArtDetView, felület automatizázás, mert ismételt végrehajtást tartalmaz
+A006,Conduit_TC06_EditBlogPost, felület automatizázás, mert ismételt végrehajtást tartalmaz
+A007,Conduit_TC07_DelBlogPost, felület automatizázás, mert ismételt végrehajtást tartalmaz
+A008,Conduit_TC08_TagFeed, felület automatizázás, mert ismételt végrehajtást tartalmaz
+A009,Conduit_TC09_Login/SettingsBio, felület automatizázás, mert ismételt végrehajtást tartalmaz
+A010,Conduit_TC10_Login/SettingsPassw, felület automatizázás, mert ismételt végrehajtást tartalmaz
