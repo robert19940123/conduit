@@ -1,7 +1,12 @@
 from selenium import webdriver
 import time
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
 
-driver = webdriver.Chrome()
+options = Options()
+options.headless = True
+
+driver = webdriver.Chrome(executable_path=ChromeDriverManager().install(), options=options)
 
 
 def test_registration():
