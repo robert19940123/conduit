@@ -1,0 +1,51 @@
+[ {
+  "uid" : "763fbd19c0b75c68",
+  "name" : "test_login_logout",
+  "time" : {
+    "start" : 1627578512639,
+    "stop" : 1627578515539,
+    "duration" : 2900
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cfcf8f96a5a53",
+  "name" : "test_registration",
+  "time" : {
+    "start" : 1627578504541,
+    "stop" : 1627578512636,
+    "duration" : 8095
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31a0fc08121620ba",
+  "name" : "test_ujadatbevitel",
+  "time" : {
+    "start" : 1627578522442,
+    "stop" : 1627578527491,
+    "duration" : 5049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57afe31bd4519f84",
+  "name" : "test_adatmodositas_torles",
+  "time" : {
+    "start" : 1627578527494,
+    "stop" : 1627578535796,
+    "duration" : 8302
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b158b09e960b55b9",
+  "name" : "test_adatkezeles",
+  "time" : {
+    "start" : 1627578515541,
+    "stop" : 1627578522439,
+    "duration" : 6898
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

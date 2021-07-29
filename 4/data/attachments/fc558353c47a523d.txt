@@ -1,0 +1,1 @@
+Article delete function actually works!
