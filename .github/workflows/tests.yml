@@ -37,17 +37,6 @@ jobs:
       run: |
         pytest --alluredir=allure-results
         
-    - name: Collect docker logs
-      uses: jwalton/gh-docker-logs@v1
-      with:
-       dest: './logs'
-    
-    - name: Archive execution artifacts
-      uses: actions/upload-artifact@v2
-      with:
-       name: docker-logs
-       path: ./logs
-        
     - name: Get Allure history
       uses: actions/checkout@v2
       if: always()
@@ -71,3 +60,15 @@ jobs:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_BRANCH: gh-pages
         PUBLISH_DIR: allure-history
+         
+    - name: Collect docker logs
+      uses: jwalton/gh-docker-logs@v1
+      with:
+       dest: './logs'
+    
+    - name: Archive execution artifacts
+      uses: actions/upload-artifact@v2
+      with:
+       name: docker-logs
+       path: ./logs
+        
