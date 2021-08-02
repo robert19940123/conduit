@@ -11,6 +11,18 @@
     "total" : 5
   }
 }, {
+  "buildOrder" : 7,
+  "reportUrl" : "https://robert19940123.github.io/conduit/7/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 5,
+    "unknown" : 0,
+    "total" : 5
+  }
+}, {
   "buildOrder" : 5,
   "reportUrl" : "https://robert19940123.github.io/conduit/5/",
   "reportName" : "Allure Report with history",

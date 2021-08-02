@@ -1,0 +1,109 @@
+{
+  "uid" : "f4c125ae2895129f",
+  "name" : "test_registration",
+  "fullName" : "tests.tc1_registration_test#test_registration",
+  "historyId" : "85e4706e66121347af5c211285edd068",
+  "time" : {
+    "start" : 1627907877034,
+    "stop" : 1627907886097,
+    "duration" : 9063
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "tc1_registration_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az83-150"
+  }, {
+    "name" : "thread",
+    "value" : "3725-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.tc1_registration_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "c957826f7c596f0a",
+        "reportUrl" : "https://robert19940123.github.io/conduit/7//#testresult/c957826f7c596f0a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627907022496,
+          "stop" : 1627907031619,
+          "duration" : 9123
+        }
+      }, {
+        "uid" : "813383b1e8234c04",
+        "reportUrl" : "https://robert19940123.github.io/conduit/5//#testresult/813383b1e8234c04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627906335863,
+          "stop" : 1627906345395,
+          "duration" : 9532
+        }
+      }, {
+        "uid" : "9726c7877aef3850",
+        "reportUrl" : "https://robert19940123.github.io/conduit/6//#testresult/9726c7877aef3850",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627906330129,
+          "stop" : 1627906340501,
+          "duration" : 10372
+        }
+      }, {
+        "uid" : "8cfcf8f96a5a53",
+        "reportUrl" : "https://robert19940123.github.io/conduit/4//#testresult/8cfcf8f96a5a53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627578504541,
+          "stop" : 1627578512636,
+          "duration" : 8095
+        }
+      }, {
+        "uid" : "4a6f904291b615bd",
+        "reportUrl" : "https://robert19940123.github.io/conduit/3//#testresult/4a6f904291b615bd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627577671795,
+          "stop" : 1627577678489,
+          "duration" : 6694
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f4c125ae2895129f.json",
+  "parameterValues" : [ ]
+}

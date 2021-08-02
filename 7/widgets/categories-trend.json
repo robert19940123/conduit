@@ -4,6 +4,11 @@
   "reportName" : "Allure Report with history",
   "data" : { }
 }, {
+  "buildOrder" : 7,
+  "reportUrl" : "https://robert19940123.github.io/conduit/7/",
+  "reportName" : "Allure Report with history",
+  "data" : { }
+}, {
   "buildOrder" : 5,
   "reportUrl" : "https://robert19940123.github.io/conduit/5/",
   "reportName" : "Allure Report with history",

@@ -6,13 +6,13 @@
       "name" : "tc1_registration_test",
       "children" : [ {
         "name" : "test_registration",
-        "uid" : "c957826f7c596f0a",
+        "uid" : "f4c125ae2895129f",
         "parentUid" : "8dcedffe82aca7bee1f083538538ada7",
         "status" : "passed",
         "time" : {
-          "start" : 1627907022496,
-          "stop" : 1627907031619,
-          "duration" : 9123
+          "start" : 1627907877034,
+          "stop" : 1627907886097,
+          "duration" : 9063
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +23,13 @@
       "name" : "tc2_login_logout_test",
       "children" : [ {
         "name" : "test_login_logout",
-        "uid" : "8a2bfe6a90309df7",
+        "uid" : "f40a8424d0bfef94",
         "parentUid" : "57bde118d505ae1b821d64cd91e4bec7",
         "status" : "passed",
         "time" : {
-          "start" : 1627907031621,
-          "stop" : 1627907044981,
-          "duration" : 13360
+          "start" : 1627907886100,
+          "stop" : 1627907899628,
+          "duration" : 13528
         },
         "flaky" : false,
         "newFailed" : false,
@@ -40,13 +40,13 @@
       "name" : "tc3_adatkezeles_test",
       "children" : [ {
         "name" : "test_adatkezeles",
-        "uid" : "f6c2b07d632daa2a",
+        "uid" : "5a791f09c3ee9f70",
         "parentUid" : "6590655e73091a7e292d3de1dcdbb69e",
         "status" : "passed",
         "time" : {
-          "start" : 1627907044983,
-          "stop" : 1627907057634,
-          "duration" : 12651
+          "start" : 1627907899630,
+          "stop" : 1627907912418,
+          "duration" : 12788
         },
         "flaky" : false,
         "newFailed" : false,
@@ -57,13 +57,13 @@
       "name" : "tc4_ujadatbevitel_torles_test",
       "children" : [ {
         "name" : "test_ujadatbevitel",
-        "uid" : "85107a77327a0bb1",
+        "uid" : "a57f13ebde3d004b",
         "parentUid" : "521dbe0f0a3bde8b763127da2b562eb3",
         "status" : "passed",
         "time" : {
-          "start" : 1627907057636,
-          "stop" : 1627907074127,
-          "duration" : 16491
+          "start" : 1627907912420,
+          "stop" : 1627907929079,
+          "duration" : 16659
         },
         "flaky" : false,
         "newFailed" : false,
@@ -74,13 +74,13 @@
       "name" : "tc5_adatmodositas_test",
       "children" : [ {
         "name" : "test_adatmodositas_torles",
-        "uid" : "4a09c260275b7195",
+        "uid" : "7ac57e28df23d35e",
         "parentUid" : "f73913d8ff90f4aad2c8a7a33ec1cf20",
         "status" : "passed",
         "time" : {
-          "start" : 1627907074130,
-          "stop" : 1627907090678,
-          "duration" : 16548
+          "start" : 1627907929081,
+          "stop" : 1627907945875,
+          "duration" : 16794
         },
         "flaky" : false,
         "newFailed" : false,
