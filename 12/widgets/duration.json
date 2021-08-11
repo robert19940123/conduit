@@ -1,0 +1,81 @@
+[ {
+  "uid" : "4ce17333e8cae153",
+  "name" : "test_adatlementes_feluletrol",
+  "time" : {
+    "start" : 1628700841460,
+    "stop" : 1628700847883,
+    "duration" : 6423
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d9a9716b153fea9e",
+  "name" : "test_ujadatbevitel",
+  "time" : {
+    "start" : 1628700756094,
+    "stop" : 1628700772647,
+    "duration" : 16553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23103ff71d93fcf6",
+  "name" : "test_adatbevitel_adatforrasbol",
+  "time" : {
+    "start" : 1628700787007,
+    "stop" : 1628700832274,
+    "duration" : 45267
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30106f423e0a108e",
+  "name" : "test_adatlitazas_tobboldalas_lista_bejaras",
+  "time" : {
+    "start" : 1628700832276,
+    "stop" : 1628700841384,
+    "duration" : 9108
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "931d62190aa01411",
+  "name" : "test_adatmodositas_torles",
+  "time" : {
+    "start" : 1628700772650,
+    "stop" : 1628700787005,
+    "duration" : 14355
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fc265675927ef50",
+  "name" : "test_registration",
+  "time" : {
+    "start" : 1628700726691,
+    "stop" : 1628700734503,
+    "duration" : 7812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41d39bf806b4ff36",
+  "name" : "test_adatkezeles",
+  "time" : {
+    "start" : 1628700746589,
+    "stop" : 1628700756092,
+    "duration" : 9503
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b2f9fc1d1dc1f21",
+  "name" : "test_login_logout",
+  "time" : {
+    "start" : 1628700734505,
+    "stop" : 1628700746587,
+    "duration" : 12082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
