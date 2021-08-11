@@ -1,0 +1,59 @@
+{
+  "uid" : "4bc942be5ec7a8ad",
+  "name" : "test_adatlementes_feluletrol",
+  "fullName" : "tests.tc8_adatlementes_feluletrol_test#test_adatlementes_feluletrol",
+  "historyId" : "7f7894099697f9e6cbe226f4c880df91",
+  "time" : {
+    "start" : 1628695646049,
+    "stop" : 1628695651489,
+    "duration" : 5440
+  },
+  "status" : "broken",
+  "statusMessage" : "FileNotFoundError: [Errno 2] No such file or directory: 'tc8_upload.csv'",
+  "statusTrace" : "def test_adatlementes_feluletrol():\n        driver.get(\"http://localhost:1667/#/\")\n    \n        try:\n    \n            def check_and_click(a, b, c):\n                a = driver.find_element_by_xpath(b)\n                assert a.text == c\n                a.click()\n                time.sleep(1.0)\n    \n            def displayed(a):\n                assert a.is_displayed()\n    \n            def type_and_check(t, p, c):\n                t.clear()\n                assert t.get_attribute(\"placeholder\") == p\n                t.send_keys(c)\n    \n            def random_email_address(domain='gmail.com'):\n                random_data = ''.join(random.choice(string.ascii_letters + string.digits) for _ in range(10))\n                return random_data + '@' + domain\n    \n            sign_up = driver.find_element_by_xpath(\"//a[@href='#/register']\")\n            displayed(sign_up)\n            sign_up.click()\n    \n            username = driver.find_element_by_xpath(\"//input[@placeholder='Username']\")\n            mail = driver.find_element_by_xpath(\"//input[@placeholder='Email']\")\n            password = driver.find_element_by_xpath(\"//input[@placeholder='Password']\")\n    \n            type_and_check(username, \"Username\", \"robert07134\")\n            type_and_check(mail, \"Email\", random_email_address())\n            type_and_check(password, \"Password\", \"Aaaa11111\")\n    \n            green_button = driver.find_element_by_xpath(\"//button[@class='btn btn-lg btn-primary pull-xs-right']\")\n            assert sign_up.text == driver.find_element_by_xpath(\n                \"//h1[@class='text-xs-center']\").text == green_button.text == \"Sign up\"\n            green_button.click()\n            time.sleep(3.0)\n    \n            assert driver.find_element_by_xpath(\"//div[@class='swal-text']\").text == \"Your registration was successful!\"\n            check_and_click(\"confirm\", \"//button[@class='swal-button swal-button--confirm']\", \"OK\")\n    \n            new_article = driver.find_element_by_xpath(\"//a[@href='#/editor']\")\n            displayed(new_article)\n            new_article.click()\n            time.sleep(0.5)\n    \n            def clear_and_fill(xp, ph):\n                element = driver.find_element_by_xpath(xp)\n                assert element.get_attribute(\"placeholder\") == ph\n                element.clear()\n                return element\n    \n            upload_counter = 0\n>           with open(\"tc8_upload.csv\", encoding=\"UTF-8\") as csv_file:\nE           FileNotFoundError: [Errno 2] No such file or directory: 'tc8_upload.csv'\n\ntests/tc8_adatlementes_feluletrol_test.py:71: FileNotFoundError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "tc8_adatlementes_feluletrol_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-15"
+  }, {
+    "name" : "thread",
+    "value" : "3816-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.tc8_adatlementes_feluletrol_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "4bc942be5ec7a8ad.json",
+  "parameterValues" : [ ]
+}

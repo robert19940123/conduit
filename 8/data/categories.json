@@ -1,0 +1,56 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'tc6_fill_in.csv'",
+      "children" : [ {
+        "name" : "test_adatbevitel_adatforrasbol",
+        "uid" : "e771a728073ee152",
+        "parentUid" : "cdf4363e97b87631f5c48d998d39c9ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628695635037,
+          "stop" : 1628695640505,
+          "duration" : 5468
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_adatlitazas_tobboldalas_lista_bejaras",
+        "uid" : "d0a95005b2f7e9d9",
+        "parentUid" : "cdf4363e97b87631f5c48d998d39c9ba",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628695640558,
+          "stop" : 1628695646038,
+          "duration" : 5480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cdf4363e97b87631f5c48d998d39c9ba"
+    }, {
+      "name" : "FileNotFoundError: [Errno 2] No such file or directory: 'tc8_upload.csv'",
+      "children" : [ {
+        "name" : "test_adatlementes_feluletrol",
+        "uid" : "4bc942be5ec7a8ad",
+        "parentUid" : "67754f25f9a7b6ef281f71f89701c519",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628695646049,
+          "stop" : 1628695651489,
+          "duration" : 5440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "67754f25f9a7b6ef281f71f89701c519"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
