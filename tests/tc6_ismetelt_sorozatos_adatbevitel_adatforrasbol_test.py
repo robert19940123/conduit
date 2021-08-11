@@ -67,7 +67,7 @@ def test_adatbevitel_adatforrasbol():
             element.clear()
             return element
 
-        with open("./tc6_fill_in.csv", encoding="UTF-8") as csv_file:
+        with open("tests/tc6_fill_in.csv", encoding="UTF-8") as csv_file:
             csv_reader = csv.reader(csv_file,
                                     delimiter='*')
             for row in csv_reader:
