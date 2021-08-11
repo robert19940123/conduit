@@ -1,9 +1,9 @@
 from selenium import webdriver
 import time
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.options import Options
 import random
 import string
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
 
 options = Options()
 options.headless = True
@@ -20,7 +20,7 @@ def test_adatmodositas_torles():
             a = driver.find_element_by_xpath(b)
             assert a.text == c
             a.click()
-            time.sleep(0.5)
+            time.sleep(1.0)
 
         def displayed(a):
             assert a.is_displayed()
@@ -54,7 +54,6 @@ def test_adatmodositas_torles():
 
         assert driver.find_element_by_xpath("//div[@class='swal-text']").text == "Your registration was successful!"
         check_and_click("confirm", "//button[@class='swal-button swal-button--confirm']", "OK")
-        time.sleep(1.0)
 
         settings = driver.find_element_by_xpath("//a[@href='#/settings']")
         displayed(settings)
@@ -70,14 +69,11 @@ def test_adatmodositas_torles():
 
         displayed(upd_button)
         check_and_click("update_butt", "/html/body/div[1]/div/div/div/div/form/fieldset/button", "Update Settings")
-        time.sleep(1.0)
 
         assert driver.find_element_by_xpath("//div[@class='swal-title']").text == "Update successful!"
         check_and_click("confirm", "//button[@class='swal-button swal-button--confirm']", "OK")
-        time.sleep(1.0)
 
         check_and_click("my_page", "//a[@href='#/@robert0123/']", "robert0123")
-        time.sleep(0.5)
 
         assert driver.find_element_by_xpath("//a[@href='#/@robert0123/']").text == driver.find_element_by_xpath(
             "/html/body/div/div/div[1]/div/div/div/h4").text == "robert0123"
@@ -96,14 +92,11 @@ def test_adatmodositas_torles():
 
         displayed(upd_button)
         check_and_click("update", "/html/body/div[1]/div/div/div/div/form/fieldset/button", "Update Settings")
-        time.sleep(1.0)
 
         assert driver.find_element_by_xpath("//div[@class='swal-title']").text == "Update successful!"
         check_and_click("confirm", "//button[@class='swal-button swal-button--confirm']", "OK")
-        time.sleep(1.0)
 
         check_and_click("my_page", "//a[@href='#/@robert07134/']", "robert07134")
-        time.sleep(0.5)
 
         driver.refresh()
         # szükséges az oldalt frissíteni, különben a 2. változtatás után nem frissíti magától a saját cikkek fülön

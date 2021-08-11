@@ -1,9 +1,9 @@
 from selenium import webdriver
 import time
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.options import Options
 import random
 import string
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
 
 options = Options()
 options.headless = True
@@ -20,7 +20,7 @@ def test_ujadatbevitel():
             a = driver.find_element_by_xpath(b)
             assert a.text == c
             a.click()
-            time.sleep(0.5)
+            time.sleep(1.0)
 
         def displayed(a):
             assert a.is_displayed()
@@ -54,7 +54,6 @@ def test_ujadatbevitel():
 
         assert driver.find_element_by_xpath("//div[@class='swal-text']").text == "Your registration was successful!"
         check_and_click("confirm", "//button[@class='swal-button swal-button--confirm']", "OK")
-        time.sleep(1.0)
 
         check_and_click("my_page", "//a[@href='#/@robert07134/']", "robert07134")
 
@@ -81,7 +80,6 @@ def test_ujadatbevitel():
 
         displayed(art_button)
         check_and_click("ark_butt_push", "/html/body/div[1]/div/div/div/div/form/button", "Publish Article")
-        time.sleep(0.5)
 
         comment = driver.find_element_by_xpath("/html/body/div[1]/div/div[2]/div[2]/div/div/form/div[1]/textarea")
         comment_button = driver.find_element_by_xpath("/html/body/div[1]/div/div[2]/div[2]/div/div/form/div[2]/button")
@@ -91,7 +89,6 @@ def test_ujadatbevitel():
         displayed(comment_button)
         check_and_click("comment_click", "/html/body/div[1]/div/div[2]/div[2]/div/div/form/div[2]/button",
                         "Post Comment")
-        time.sleep(0.5)
 
         trash = driver.find_element_by_xpath("/html/body/div[1]/div/div[2]/div[2]/div/div[2]/div[2]/span[2]/i")
         displayed(trash)
@@ -107,14 +104,11 @@ def test_ujadatbevitel():
         time.sleep(1.0)
 
         check_and_click("art_button", "/html/body/div[1]/div/div/div/div/form/button", "Publish Article")
-        time.sleep(0.5)
 
         check_and_click("delete_button", "/html/body/div[1]/div/div[1]/div/div/span/button/span", " Delete Article")
-        time.sleep(1.0)
 
         assert driver.find_element_by_xpath("//div[@class='swal-title']").text == "Oops!"
         check_and_click("confirm", "//button[@class='swal-button swal-button--confirm']", "OK")
-        time.sleep(0.5)
 
         check_and_click("my_page", "//a[@href='#/@robert07134/']", "robert07134")
 

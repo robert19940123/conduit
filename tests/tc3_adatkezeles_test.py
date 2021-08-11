@@ -1,9 +1,9 @@
 from selenium import webdriver
 import time
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.options import Options
 import random
 import string
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
 
 options = Options()
 options.headless = True
@@ -20,7 +20,7 @@ def test_adatkezeles():
             a = driver.find_element_by_xpath(b)
             assert a.text == c
             a.click()
-            time.sleep(0.5)
+            time.sleep(1.0)
 
         def displayed(a):
             assert a.is_displayed()
@@ -54,15 +54,13 @@ def test_adatkezeles():
 
         assert driver.find_element_by_xpath("//div[@class='swal-text']").text == "Your registration was successful!"
         check_and_click("confirm", "//button[@class='swal-button swal-button--confirm']", "OK")
-        time.sleep(1.0)
 
         check_and_click("my_page", "//a[@href='#/@robert07134/']", "robert07134")
-        time.sleep(0.5)
 
         check_and_click("cokkie_page", "//a[@href='https://cookiesandyou.com/']", "Learn More...")
-        time.sleep(3.0)
 
         driver.switch_to.window(driver.window_handles[-1])
+        time.sleep(0.5)
         driver.close()
         driver.switch_to.window(driver.window_handles[0])
         time.sleep(1.0)
@@ -75,7 +73,6 @@ def test_adatkezeles():
         check_and_click("Accept_button",
                         "//button[@class='cookie__bar__buttons__button cookie__bar__buttons__button--accept']",
                         "I accept!")
-        time.sleep(1.0)
 
         assert driver.get_cookie("vue-cookie-accept-decline-cookie-policy-panel") is not None
 

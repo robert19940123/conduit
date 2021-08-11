@@ -1,9 +1,9 @@
 from selenium import webdriver
 import time
-from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.chrome.options import Options
 import random
 import string
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
 
 options = Options()
 options.headless = True
@@ -20,7 +20,7 @@ def test_login_logout():
             a = driver.find_element_by_xpath(b)
             assert a.text == c
             a.click()
-            time.sleep(0.5)
+            time.sleep(1.0)
 
         def displayed(a):
             assert a.is_displayed()
@@ -37,7 +37,6 @@ def test_login_logout():
         sign_in = driver.find_element_by_xpath("//a[@href='#/login']")
         displayed(sign_in)
         sign_in.click()
-        time.sleep(1.0)
 
         main_window = driver.window_handles[0]
         driver.execute_script("window.open('', 'newwin', 'height=800, width=1200')")
@@ -65,7 +64,6 @@ def test_login_logout():
 
         assert driver.find_element_by_xpath("//div[@class='swal-text']").text == "Your registration was successful!"
         check_and_click("confirm", "//button[@class='swal-button swal-button--confirm']", "OK")
-        time.sleep(1.0)
 
         assert driver.find_element_by_xpath("//a[@href='#/@robert07134/']").text == "robert07134"
 
@@ -108,4 +106,3 @@ def test_login_logout():
 
     finally:
         driver.quit()
-
