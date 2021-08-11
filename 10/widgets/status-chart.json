@@ -1,0 +1,81 @@
+[ {
+  "uid" : "36c2c5dee7bc4311",
+  "name" : "test_adatlementes_feluletrol",
+  "time" : {
+    "start" : 1628699693846,
+    "stop" : 1628699700468,
+    "duration" : 6622
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9db778b9bb96d69f",
+  "name" : "test_adatkezeles",
+  "time" : {
+    "start" : 1628699635951,
+    "stop" : 1628699645620,
+    "duration" : 9669
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a82c464e23f6813d",
+  "name" : "test_adatlitazas_tobboldalas_lista_bejaras",
+  "time" : {
+    "start" : 1628699683756,
+    "stop" : 1628699693810,
+    "duration" : 10054
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c0c2b0a1dcce9973",
+  "name" : "test_login_logout",
+  "time" : {
+    "start" : 1628699623561,
+    "stop" : 1628699635949,
+    "duration" : 12388
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f62f3a5b96ef1efa",
+  "name" : "test_adatbevitel_adatforrasbol",
+  "time" : {
+    "start" : 1628699677219,
+    "stop" : 1628699683663,
+    "duration" : 6444
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "aacc8edfd7669e2b",
+  "name" : "test_adatmodositas_torles",
+  "time" : {
+    "start" : 1628699662572,
+    "stop" : 1628699677216,
+    "duration" : 14644
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc3360ae76e263f7",
+  "name" : "test_ujadatbevitel",
+  "time" : {
+    "start" : 1628699645623,
+    "stop" : 1628699662568,
+    "duration" : 16945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7857d832d1182892",
+  "name" : "test_registration",
+  "time" : {
+    "start" : 1628699616136,
+    "stop" : 1628699623558,
+    "duration" : 7422
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

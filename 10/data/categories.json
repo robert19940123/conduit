@@ -1,0 +1,52 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div/div/div/div/form/button\"}\n  (Session info: headless chrome=92.0.4515.131)",
+      "children" : [ {
+        "name" : "test_adatbevitel_adatforrasbol",
+        "uid" : "f62f3a5b96ef1efa",
+        "parentUid" : "2b3506d9872c3fdd83e036e6f7d17107",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628699677219,
+          "stop" : 1628699683663,
+          "duration" : 6444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_adatlitazas_tobboldalas_lista_bejaras",
+        "uid" : "a82c464e23f6813d",
+        "parentUid" : "2b3506d9872c3fdd83e036e6f7d17107",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628699683756,
+          "stop" : 1628699693810,
+          "duration" : 10054
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_adatlementes_feluletrol",
+        "uid" : "36c2c5dee7bc4311",
+        "parentUid" : "2b3506d9872c3fdd83e036e6f7d17107",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628699693846,
+          "stop" : 1628699700468,
+          "duration" : 6622
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b3506d9872c3fdd83e036e6f7d17107"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
