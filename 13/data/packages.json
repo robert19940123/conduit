@@ -1,0 +1,145 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests",
+    "children" : [ {
+      "name" : "tc1_registration_test",
+      "children" : [ {
+        "name" : "test_registration",
+        "uid" : "36a8a0af8f3564b1",
+        "parentUid" : "ce78ca3e32a71a28515c2b22ceba7f9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628701327535,
+          "stop" : 1628701335903,
+          "duration" : 8368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ce78ca3e32a71a28515c2b22ceba7f9a"
+    }, {
+      "name" : "tc2_login_logout_test",
+      "children" : [ {
+        "name" : "test_login_logout",
+        "uid" : "b7367d4829f7aca8",
+        "parentUid" : "391b584f2097369b84b4456c5f192da9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628701335906,
+          "stop" : 1628701348316,
+          "duration" : 12410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "391b584f2097369b84b4456c5f192da9"
+    }, {
+      "name" : "tc3_adatkezeles_test",
+      "children" : [ {
+        "name" : "test_adatkezeles",
+        "uid" : "e8c94a2df879348a",
+        "parentUid" : "ae100a7a1c6e7b7267906460ef04c5b1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628701348318,
+          "stop" : 1628701358008,
+          "duration" : 9690
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae100a7a1c6e7b7267906460ef04c5b1"
+    }, {
+      "name" : "tc4_ujadatbevitel_test",
+      "children" : [ {
+        "name" : "test_ujadatbevitel",
+        "uid" : "4090157da8d7e823",
+        "parentUid" : "ef7f420d69f56bd7e5d1d857e4515117",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628701358010,
+          "stop" : 1628701374914,
+          "duration" : 16904
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ef7f420d69f56bd7e5d1d857e4515117"
+    }, {
+      "name" : "tc5_adatmodosítas_torles_test",
+      "children" : [ {
+        "name" : "test_adatmodositas_torles",
+        "uid" : "27866319fd8cb034",
+        "parentUid" : "bd78817ff8f871f1c5f68d2ec004a277",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628701374917,
+          "stop" : 1628701389503,
+          "duration" : 14586
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bd78817ff8f871f1c5f68d2ec004a277"
+    }, {
+      "name" : "tc6_ismetelt_sorozatos_adatbevitel_adatforrasbol_test",
+      "children" : [ {
+        "name" : "test_adatbevitel_adatforrasbol",
+        "uid" : "8973e44fb4df8187",
+        "parentUid" : "89f0c3626cdb65e480069f0ce50997c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628701389505,
+          "stop" : 1628701436764,
+          "duration" : 47259
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "89f0c3626cdb65e480069f0ce50997c1"
+    }, {
+      "name" : "tc7_adatlistazas_tobboldalas_lista_bejaras_test",
+      "children" : [ {
+        "name" : "test_adatlitazas_tobboldalas_lista_bejaras",
+        "uid" : "7d757f7c31776406",
+        "parentUid" : "084005c32064c0ddc6731f3416f7daf3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628701436766,
+          "stop" : 1628701450310,
+          "duration" : 13544
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "084005c32064c0ddc6731f3416f7daf3"
+    }, {
+      "name" : "tc8_adatlementes_feluletrol_test",
+      "children" : [ {
+        "name" : "test_adatlementes_feluletrol",
+        "uid" : "4592a4b4eaf48ca1",
+        "parentUid" : "b97109822c7c3f2c3a89693357319ef9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628701450411,
+          "stop" : 1628701464698,
+          "duration" : 14287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b97109822c7c3f2c3a89693357319ef9"
+    } ],
+    "uid" : "bf49149a3821e34f7608bb6885d52868"
+  } ],
+  "name" : "packages"
+}
