@@ -67,6 +67,8 @@ def test_adatlementes_feluletrol():
             element.clear()
             return element
 
+        time.sleep(1.0)
+
         upload_counter = 0
         with open("tc8_upload.csv", encoding="UTF-8") as csv_file:
             csv_reader = csv.reader(csv_file,
@@ -110,6 +112,8 @@ def test_adatlementes_feluletrol():
             my_articles.append(fourth)
             driver.back()
             time.sleep(1.0)
+
+        time.sleep(1.0)
 
         my_saved_count = 0
         with open("tc8_download.csv", "w", encoding="utf-8") as file:
