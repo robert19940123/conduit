@@ -1,0 +1,73 @@
+{
+  "uid" : "eede8ce7e993172f",
+  "name" : "test_data_entry_from_data_source",
+  "fullName" : "tests.tc6_data_entry_from_data_source_test#test_data_entry_from_data_source",
+  "historyId" : "176636a95a75d0756aa2fac93e0d4a30",
+  "time" : {
+    "start" : 1628793619736,
+    "stop" : 1628793672869,
+    "duration" : 53133
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "tc6_data_entry_from_data_source_test"
+  }, {
+    "name" : "host",
+    "value" : "fv-az82-131"
+  }, {
+    "name" : "thread",
+    "value" : "3685-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.tc6_data_entry_from_data_source_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "87fea0761ba71665",
+        "reportUrl" : "https://robert19940123.github.io/conduit/14//#testresult/87fea0761ba71665",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628781991671,
+          "stop" : 1628782045301,
+          "duration" : 53630
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "eede8ce7e993172f.json",
+  "parameterValues" : [ ]
+}

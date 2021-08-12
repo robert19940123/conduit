@@ -3,6 +3,13 @@
   "reportUrl" : "https://robert19940123.github.io/conduit/14/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "duration" : 181181
+  }
+}, {
+  "buildOrder" : 14,
+  "reportUrl" : "https://robert19940123.github.io/conduit/14/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "duration" : 183130
   }
 }, {
