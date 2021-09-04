@@ -6,13 +6,13 @@
       "name" : "tc1_registration_test",
       "children" : [ {
         "name" : "test_registration",
-        "uid" : "e1ef56288855d120",
+        "uid" : "edda16d36ce163f",
         "parentUid" : "8dcedffe82aca7bee1f083538538ada7",
         "status" : "passed",
         "time" : {
-          "start" : 1628793557763,
-          "stop" : 1628793566245,
-          "duration" : 8482
+          "start" : 1630748279369,
+          "stop" : 1630748286984,
+          "duration" : 7615
         },
         "flaky" : false,
         "newFailed" : false,
@@ -23,13 +23,13 @@
       "name" : "tc2_login_logout_test",
       "children" : [ {
         "name" : "test_login_logout",
-        "uid" : "95260d81f8341e94",
+        "uid" : "cf39f37a8341bd5d",
         "parentUid" : "57bde118d505ae1b821d64cd91e4bec7",
         "status" : "passed",
         "time" : {
-          "start" : 1628793566248,
-          "stop" : 1628793578398,
-          "duration" : 12150
+          "start" : 1630748286987,
+          "stop" : 1630748299838,
+          "duration" : 12851
         },
         "flaky" : false,
         "newFailed" : false,
@@ -40,13 +40,13 @@
       "name" : "tc3_cookie_management_test",
       "children" : [ {
         "name" : "test_cookie_management",
-        "uid" : "5b5b37cceb77ff88",
+        "uid" : "6ae4e5ff5ad9d811",
         "parentUid" : "af1ae04697b1dd8ed1d6a182a94b9e7b",
         "status" : "passed",
         "time" : {
-          "start" : 1628793578400,
-          "stop" : 1628793587931,
-          "duration" : 9531
+          "start" : 1630748299841,
+          "stop" : 1630748309793,
+          "duration" : 9952
         },
         "flaky" : false,
         "newFailed" : false,
@@ -57,13 +57,13 @@
       "name" : "tc4_new_data_test",
       "children" : [ {
         "name" : "test_new_data",
-        "uid" : "6f2f520eadacb472",
+        "uid" : "5c874fd3880166cf",
         "parentUid" : "73108856c474a072098b5d76c15baea1",
         "status" : "passed",
         "time" : {
-          "start" : 1628793587934,
-          "stop" : 1628793604493,
-          "duration" : 16559
+          "start" : 1630748309795,
+          "stop" : 1630748327037,
+          "duration" : 17242
         },
         "flaky" : false,
         "newFailed" : false,
@@ -74,13 +74,13 @@
       "name" : "tc5_data_modify_delete_test",
       "children" : [ {
         "name" : "test_data_modify_delete",
-        "uid" : "b406f1204e1fe452",
+        "uid" : "d528871f8b44b8e1",
         "parentUid" : "86778a912a661ec7d6cc50faa7dd85ee",
         "status" : "passed",
         "time" : {
-          "start" : 1628793604496,
-          "stop" : 1628793619734,
-          "duration" : 15238
+          "start" : 1630748327041,
+          "stop" : 1630748342943,
+          "duration" : 15902
         },
         "flaky" : false,
         "newFailed" : false,
@@ -91,13 +91,13 @@
       "name" : "tc6_data_entry_from_data_source_test",
       "children" : [ {
         "name" : "test_data_entry_from_data_source",
-        "uid" : "eede8ce7e993172f",
+        "uid" : "19f88a6357a95f67",
         "parentUid" : "f3572f78d70f6657efa9d2f0df3ced26",
         "status" : "passed",
         "time" : {
-          "start" : 1628793619736,
-          "stop" : 1628793672869,
-          "duration" : 53133
+          "start" : 1630748342946,
+          "stop" : 1630748397574,
+          "duration" : 54628
         },
         "flaky" : false,
         "newFailed" : false,
@@ -108,13 +108,13 @@
       "name" : "tc7_data_listing_and_multi_page_test",
       "children" : [ {
         "name" : "test_data_listing_and_multi_page",
-        "uid" : "e3e716783ec0faab",
+        "uid" : "148c32b21df6a805",
         "parentUid" : "417ab300113cd6c72398b3aac910bdf0",
         "status" : "passed",
         "time" : {
-          "start" : 1628793672871,
-          "stop" : 1628793724680,
-          "duration" : 51809
+          "start" : 1630748397577,
+          "stop" : 1630748452663,
+          "duration" : 55086
         },
         "flaky" : false,
         "newFailed" : false,
@@ -125,13 +125,13 @@
       "name" : "tc8_data_download_from_interface_test",
       "children" : [ {
         "name" : "test_data_download_from_interface",
-        "uid" : "5c4343c7c97a5a02",
+        "uid" : "121a8d6f3f1f8d72",
         "parentUid" : "065f3cdc5b613fb99c204f8d94269a1f",
         "status" : "passed",
         "time" : {
-          "start" : 1628793724682,
-          "stop" : 1628793738944,
-          "duration" : 14262
+          "start" : 1630748452666,
+          "stop" : 1630748467582,
+          "duration" : 14916
         },
         "flaky" : false,
         "newFailed" : false,
